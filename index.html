@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vote for the cutest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Voting for the cutest animal</h1>
+    </header>
+
+    <h5>Welcome to the annual polls for the cutest animal in the zoo!</h5>
+    <h2 class="elite">Contestants</h2>
+
+    <div class="allContestants">
+
+        <div id="cat">
+            <h6>Mr. Cute</h6>
+            <img src="https://i.pinimg.com/originals/1b/97/78/1b97784a1443f53e4b65c0f4671158f0.gif" alt="Mr. Cute" width="556" height="300" />
+            <div>
+              <p id="catdescription">
+                Mr. Cute, the tiny kitten, wins hearts with big eyes and playful
+                antics. Soft fur, a <br />
+                gentle purr, and an overall charming presence make Whiskers a top
+                pick for <br />cuteness.
+              </p>
+              <br />
+    
+              <button onclick="toggleDisplay('catdescription')">About me</button>
+              <button onclick="increaseVoteByOne('cat')">click to vote</button>
+            </div>
+            <hr />
+          </div>
+          <div id="monkey">
+            <h6>Mx. Monkey</h6>
+            <img
+              src="https://usagif.com/wp-content/uploads/gifs/monkey-148.gif"
+              alt="Mx. Monkey"
+              width="560"
+              height="300"
+            />
+    
+            <div>
+              <p id="monkeydescription">
+                The spirited young monkey, brings boundless energy and mischievous
+                grins to the<br />
+                competition. Acrobatic stunts and playful gestures make Mischief an
+                adorable<br />
+                contender for your vote.
+              </p>
+              <br />
+              <button onclick="toggleDisplay('monkeydescription')">About me</button>
+              <button onclick="increaseVoteByOne('monkey')">click to vote</button>
+            </div>
+            <hr />
+          </div>
+          <div id="zebra">
+            <h6>Ms. Zebra</h6>
+            <img
+              src="https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
+              alt="Ms. Zebra"
+              width="556"
+              height="300"
+            />
+            <div>
+              <p id="zebradescription">
+                She is cute with her black and white strips <br />
+                at galloping and soulful eyes create an endearing appeal, making
+                them a captivating<br />
+                participant in the cuteness race.
+              </p>
+              <br />
+              <button onclick="toggleDisplay('zebradescription')">About me</button>
+              <button onclick="increaseVoteByOne('zebra')">click to vote</button>
+            </div>
+            <hr />
+          </div>
+          <div id="lion">
+            <h6>Dr. Lion</h6>
+            <img src="http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif" alt="Dr. Lion" width="556" height="300" />
+            <div>
+              <p id="liondescription">
+                Lion, the fluffy cub, embodies cuteness with fuzzy ears and a
+                clumsy charm. His<br />
+                sweet demeanor and playful exploration make them a strong candidate
+                in the quest<br />
+                for the cutest.
+              </p>
+              <br />
+              <button onclick="toggleDisplay('liondescription')">About me</button>
+              <button onclick="increaseVoteByOne('lion')">click to vote</button>
+            </div>
+            <hr />
+          </div>
+    
+          <div id="panda">
+            <h6>Mme. Panda</h6>
+            <img
+              src="https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif"
+              alt="Mme Panda"
+              width="500"
+              height="260"
+            />
+            <div>
+              <p id="pandadescription">
+                Mme Panda's charm is in his fluffy fur and a playful nature. Whether
+                munching on<br />
+                bamboo or clumsily tumbling, Panda's every move 
+                adorableness, making<br />radiates
+                them a deserving candidate for your vote.
+              </p>
+              <br />
+              <button onclick="toggleDisplay('pandadescription')">About me</button>
+              <button onclick="increaseVoteByOne('panda')">click to vote</button>
+            </div>
+            <hr />
+          </div>
+        </div>
+     <!-- <section id="addCharacters"></section>-->
+     <script src="index.js"></script>
+    </body>
+  </html>
